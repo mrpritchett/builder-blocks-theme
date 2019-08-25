@@ -2,8 +2,6 @@
 v0.1.0
 
 ### Todos
-- Add header template area
-- Add footer template area
 - Add Google Font selector for headings
 - Add Google Font selector for body copy
 - Add heading font color selector

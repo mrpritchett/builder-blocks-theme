@@ -6,5 +6,4 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<?php // @TODO: Add header template block ?>
 <?php echo builder_blocks_get_block_header(); ?>
