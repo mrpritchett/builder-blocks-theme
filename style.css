@@ -11,8 +11,13 @@
  * License: GNU General Public License version 2.0
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
+html {
+	font-size: 62.5%;
+}
 
 body {
+	color: #666;
+	font-size: 1.6rem;
 	margin: 0;
 	padding: 0;
 }
@@ -160,4 +165,67 @@ body:not(.home) .header-inner {
 
 .page-template .nf-form-content input[type="button"]:hover {
 	text-decoration: underline;
+}
+
+.site-title {
+    font-size: 2.2rem;
+	line-height: 1;
+}
+
+.site-title a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 2.8rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+}
+
+h4 {
+	font-size: 2.1rem;
+}
+
+h5 {
+	font-size: 1.9rem;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+@media (min-width: 700px) {
+	.site-title {
+		font-size: 3.2rem;
+	}
+
+	h1 {
+		font-size: 4.8rem;
+	}
+
+	h2 {
+		font-size: 4.0rem;
+	}
+
+	h3 {
+		font-size: 3.2rem;
+	}
+
+	h4 {
+		font-size: 2.4rem;
+	}
+
+	h5 {
+		font-size: 2.1rem;
+	}
+}
+
+p {
+	line-height: 1.5;
 }
