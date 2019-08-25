@@ -1,0 +1,13 @@
+{
+  "name": "pritchett-media/builder-blocks-theme",
+  "description": "A block based theme for WordPress",
+  "type": "project",
+  "license": "GPLv2",
+  "authors": [
+      {
+          "name": "Builder Blocks",
+          "email": "info@builderblocks.cloud"
+      }
+  ],
+  "require": {}
+}

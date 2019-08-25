@@ -1,0 +1,163 @@
+/**
+ *
+ * Theme Name: Builder Blocks
+ * Text Domain: builder_blocks
+ * Version: v0.0.1
+ * Description: Theme for Builder Blocks
+ * Tags: blog, portfolio, grid-layout, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, full-width-template
+ * Author: Pritchett Media
+ * Author URI: https://pritchett.media
+ * Theme URI: https://pritchett.media/builder-blocks-theme
+ * License: GNU General Public License version 2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.home .entry-header {
+	display: none;
+}
+
+.site-title {
+	color: #F8BF24;
+}
+
+body:not(.home) #site-content {
+	margin-top: 150px;
+}
+
+.home #site-header {
+	margin-bottom: 1.5em;
+}
+
+.home .post-inner {
+	padding-top: 0;
+}
+
+.vertical-center {
+	align-items: center;
+}
+
+#site-header {
+	background-color: transparent !important;
+	margin: 20px -20px 0;
+	max-width: 1200px;
+	padding: 2rem 20px 2rem 40px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 0;
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+.px-24 {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+hr {
+	border-color: #e4dfda;
+	margin: 4rem auto;
+	max-width: 25%;
+}
+
+.hero-bg-gradient {
+	background-image: url(http://builder-blocks.local/wp-content/uploads/2019/07/builder-blocks-bg.svg) !important;
+	background-size: 1200px auto !important;
+	background-position: center 50% !important;
+	background-repeat: no-repeat;
+}
+
+.home .section-inner {
+	border: 0;
+	max-width: 100%;
+	padding: 0;
+	width: 100% !important;
+}
+
+body:not(.home) .header-inner {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.ninja-shop-products {
+	display: grid;
+	margin: 0;
+}
+
+.ninja-shop-products li.ninja-shop-product {
+	background: #FFF;
+	transition: all ease 0.3s;
+}
+
+.ninja-shop-products li.ninja-shop-product:hover {
+	box-shadow: 0 0 15px rgba(180,180,180,.2);
+}
+
+.ninja-shop-products li.ninja-shop-product .ninja-shop-product-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 24px;
+	text-align: center;
+}
+
+.ninja-shop-products li.ninja-shop-product .ninja-shop-product-details h2 {
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.ninja-shop-products li.ninja-shop-product .ninja-shop-product-details h2 a {
+	text-decoration: none;
+}
+
+.ninja-shop-base-price {
+	color: #AAA;
+	font-size: 1.5rem;
+}
+
+.ninja-shop-featured-image img {
+	height: 300px;
+	margin: 0 auto;
+	object-fit: cover;
+	object-position: center;
+	opacity: 0.5;
+  transition: all ease 0.3s;
+}
+
+.ninja-shop-featured-image:hover img {
+    opacity: 1;
+    transition: all ease 0.6s;
+}
+
+.page-template .nf-form-content {
+	margin: 40px 0 0;
+}
+
+.page-template .nf-form-content input[type="button"], .page-template .nf-form-content input[type="button"]:hover {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+  background-color: #f8bf24;
+	border: none;
+	border-radius: .3rem;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: .8888em;
+	font-weight: 600;
+	height: auto;
+	line-height: 1;
+	margin: 0;
+	padding: 1.175em 1.75em;
+	text-align: center;
+	text-decoration: none;
+	transition: opacity .15s linear;
+}
+
+.page-template .nf-form-content input[type="button"]:hover {
+	text-decoration: underline;
+}
