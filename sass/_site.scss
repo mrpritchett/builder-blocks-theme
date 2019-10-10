@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+## Site
+--------------------------------------------------------------*/
+.site {
+	display: flex;
+	flex-direction: column;
+}
+
+.site-content {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.hentry {
+	display: flex;
+	flex-direction: column;
+	margin: 3.5em auto;
+	max-width: 670px;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 32px 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.entry-title {
+	margin-bottom: 4px;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
